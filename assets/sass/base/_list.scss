@@ -1,0 +1,17 @@
+.list {
+	list-style: none;
+}
+
+.list-item {
+	@include type-size(1.5);
+	margin-bottom: $spacing-double;	
+}
+
+.list-inline {
+	@extend .list;
+	.list-item, li {
+		float: left;
+		padding: 0 $spacing 0 0;
+		margin-bottom: 0;
+	}
+}

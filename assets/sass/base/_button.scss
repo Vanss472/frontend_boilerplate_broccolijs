@@ -1,0 +1,52 @@
+.button {
+	display: block;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+
+	border-radius: $border-radius;
+
+	height: 50px;
+	padding: 12px;
+
+	font-size: $baseline-rem;
+	line-height: $baseline-lineheight;
+
+	text-decoration: none;
+	text-align: center;
+	
+	cursor: pointer;
+
+	background-color: $site-highlight;
+	color: white;
+
+	border: none;
+	
+	&:hover { 
+		background-color: $site-hover; 
+		color: white; 
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&.button-full {
+		width: 100%;
+	}
+}
+
+// buton alt
+.button-alt {
+	background-color: white;
+	color: $site-highlight;
+
+	&:hover {
+		background-color: $site-hover;
+		color: white;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+

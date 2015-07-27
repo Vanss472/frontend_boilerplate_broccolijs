@@ -1,0 +1,22 @@
+@mixin clearfix() {
+  *zoom:1;
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
+.clearfix{
+  @include clearfix;
+  clear: both;
+}
+
+@mixin type-size ($size) {
+	font-size: $size + rem;
+	line-height: $size * $line-height-factor + rem;
+	letter-spacing: $size * $letter-spacing-factor + rem;
+}
+
+// respond-to
+$media-style: max-width;
+@mixin respond-to($breakpoint) {
+  @media only screen and ($media-style: $breakpoint + px) { @content; }
+}

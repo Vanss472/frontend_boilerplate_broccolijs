@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en-US" dir="ltr"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en-US" dir="ltr"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en-US" dir="ltr"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en-US" dir="ltr"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US" dir="ltr"> <!--<![endif]-->
+<head>
+    <title>Title</title>
+    <meta name="description" content="" />
+    <meta name="author"      content="" />
+    <meta name="viewport"    content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <!-- font loading -->
+    
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- user scripts / style -->
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+
+<body >
+    <div id="container">
+
+        <!-- header -->
+        {{= it.include("header")}}
+
+        <!-- content -->
+        <div id="content">
+            {{= it.document }}
+        </div>
+
+        <!-- footer -->
+        {{= it.include("footer")}}
+        
+    </div>
+
+    <script type="text/javascript" src="scripts/bundle.js"></script>
+</body>
+</html>

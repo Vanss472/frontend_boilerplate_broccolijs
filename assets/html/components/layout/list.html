@@ -1,0 +1,7 @@
+<ul class="list {{? it.classes }}{{= it.classes }}{{?}}">
+    {{~it.items :value:index }}
+       <li class="list-item">
+        {{= value }}
+       </li>
+    {{~}}
+</ul>

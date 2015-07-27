@@ -1,0 +1,9 @@
+.paragraph {
+    @include type-size(1.8);
+
+    margin-bottom: $spacing-double;
+}
+
+
+.paragraph-small  { @include type-size(1.3); }
+ 

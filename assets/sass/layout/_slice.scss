@@ -1,0 +1,25 @@
+.slice-table {
+	display: table;
+	
+	@for $i from 1 through 100 {
+		&.slice-#{$i} {
+			width: $i * 1%;
+		}
+	}
+
+	&.table-layout {
+		table-layout: fixed;
+	}
+}
+
+.slice-cell {
+	display: table-cell;
+
+	&.vertical-align-middle {
+		vertical-align: middle;
+	}
+
+	&.vertical-align-bottom {
+		vertical-align: bottom;
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"template": "main"
+}
+
+<div class="wrapper">
+    <p class="paragraph">Hello universe! I'm a paragraph</p>
+
+	<img src="assets/images/person-placeholder.jpg" class="icon icon-48" alt="">
+
+    <p class="paragraph paragraph-small">And, I'm a small paragraph with an svg icon below me...</p>
+	
+	<div class="slice-table slice-10">
+		<div class="slice-cell">
+			{{= it.include('icons/list',
+				{
+					twitter: true,
+					icon_class: "icon icon-38 twitter-red icon-center",
+					icon_id_name: "twitter"
+				}
+			)}} 
+		</div>
+		<div class="slice-cell">
+			{{= it.include('icons/list',
+				{
+					twitter: true,
+					icon_class: "icon icon-38 facebook-green icon-center",
+					icon_id_name: "facebook"
+				}
+			)}}
+		</div>
+	</div>
+
+</div>

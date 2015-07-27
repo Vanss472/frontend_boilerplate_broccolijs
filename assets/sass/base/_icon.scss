@@ -1,0 +1,29 @@
+.icon {
+	background-position: center center;
+	background-size: contain;
+	display: block !important;
+}
+
+.icon-inline {
+	display: inline-block;
+}
+
+.icon-center {
+	margin: 0 auto;
+}
+
+@each $i in (8 14 16 22 24 27 28 32 34 38 48 60 72 90 360) {
+	.icon-#{$i} {
+		width: #{$i}px; 
+		height: #{$i}px;
+	}
+}
+
+
+.twitter-red {
+	fill: red;
+}
+
+.facebook-green {
+	fill: green;
+}
