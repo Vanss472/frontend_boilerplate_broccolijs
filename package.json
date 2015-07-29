@@ -17,7 +17,7 @@
     "broccoli-imagemin": "^0.2.1",
     "broccoli-jshint": "^0.5.5",
     "broccoli-merge-trees": "^0.2.1",
-    "broccoli-sass": "^0.3.3",
+    "broccoli-sass": "^0.6.6",
     "broccoli-static-compiler": "^0.2.1",
     "broccoli-svgstore": "^0.1.0",
     "broccoli-zetzer": "^2.0.1",
