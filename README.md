@@ -1,4 +1,4 @@
-Front End Boilerplate using Broccoli JS	
+# Front End Boilerplate using Broccoli JS	
 
 Command Line Tasks
 ------------- 
@@ -7,12 +7,3 @@ Command Line Tasks
 `npm run build` -- Builds assets folder
 
 `npm run develop` -- Run broccoli serve
-
-
-Heroku:
--------------
-[domain.herokuapp.com](http://domain.herokuapp.com/)
-
-user: 
-
-pass: 
